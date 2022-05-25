@@ -4,68 +4,64 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+<<<<<<< HEAD
         <link rel="stylesheet" href="css/normalizeReset.css">
         <link rel="stylesheet" href="css/style.css">
+=======
+        <link rel="stylesheet" href="/css/normalizeReset.css">
+        <link rel="stylesheet" href="/css/style.css">
+        <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+>>>>>>> master
       <title>Encyclopedia of Hyrule</title>
     </head>
     
     <body>
     <!-- TITLE FOR THE PAGE -->
-        <header>
-    
-            <h2>The <span class="encyclopedia">Encyclopedia</span></h2>
-            <h2>of <span class="hyrule">Hyrule</span></h2>
+        <header class="headerContain">
+            <!-- <nav>
+            </nav> -->
+            <section class="titleContainer">
+                <h2>The <span class="encyclopedia">Encyclopedia</span></h2>
+                <h2>of <span class="hyrule">Hyrule</span></h2>
+            </section>
 
-            <nav>
-    
-            </nav>
-    
+            <section class="imageOuter">
+                <section class="imageInner">
+                    <img class="linkLogo" src="/assets/icon.png">
+                </section>
+            </section>    
         </header>
-    
-    
-
-
     
         <main>
 
                 
                 <!-- IMAGE BOXES FOR MEDIA -->
-          
-                <section class="imageOuter">
-                    <section class="imageInner">
-                        <img src="/assets/icon.png">
-                    </section>
+
+            <section class="inputContainer" id="btnContainer">
+            <!-- INPUT TO SEARCH -->
+                <input type="text">
+                <button>click me!</button>
+            </section>
+
+            <section class="container" id="infoContainer">
+                <div class="imgContainer">
+                    <i class="uil uil-angle-left-b leftarrow arrow" id="leftArrow"></i>
+                    <img id="image" class="searchedImg" src="" alt="">
+                    <i class="uil uil-angle-right-b rightarrow arrow" id="rightArrow"></i>
+                </div>
                     
-
-                </section>
-    
-    
-    
-        <section>
-          <!-- INPUT TO SEARCH -->
-            <input type="text">
-            <button>click me!</button>
-
-        </section>
-        
-        
-        
-        <section>
-            <img id="image" src="#" alt="">
-
                 <!-- TEXT BOXES FOR DESCRIPTION -->
                 <section class="informationOuter">
 
                     <section class="informationInner">
 
-                        <section class="infoTitle">Item/Creature Name</section>
+                        <section class="infoTitle" id="itemCreatureName">Item/Creature Name</section>
                         <section class="descriptionDivider">&#8212;&#8212;&#8212;&#8212;&#8212;&#8212; Description &#8212;&#8212;&#8212;&#8212;&#8212;&#8212;</section>
-                        <section class="infoBody">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Maxime suscipit officia porro, quos repellat quisquam impedit sed consequatur saepe sint illo ratione quis atque totam obcaecati laboriosam tempore! Labore, illum.</section>
+                        <section class="infoBody" id="itemCreatureDescription">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Maxime suscipit officia porro, quos repellat quisquam impedit sed consequatur saepe sint illo ratione quis atque totam obcaecati laboriosam tempore! Labore, illum.</section>
                         
                     </section>
                 </section>
-
-           </section>
+            </section>
 
 
         </main>
