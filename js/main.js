@@ -9,7 +9,7 @@ let count = 0;
 // let entry = document.getElementById('searchAll').value
 
 // const CREATURES_URL = 'https://botw-compendium.herokuapp.com/api/v2'
-const urlAll = `https://botw-compendium.herokuapp.com/api/v2/entry/${searchValue}`;
+// const urlAll = `https://botw-compendium.herokuapp.com/api/v2/entry/${searchValue}`;
 const url = `https://botw-compendium.herokuapp.com/api/v2/all`;
 
 
